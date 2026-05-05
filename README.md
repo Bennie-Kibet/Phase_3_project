@@ -167,6 +167,8 @@ A heatmap can show us the strength and direction of the correlation between two 
 
 ![alt text](Images/Dt.png)
 
+### Model Evaluation
+
 ![alt text](Images/cm_Dt.png)
 
 ### Discussion
@@ -185,7 +187,9 @@ A heatmap can show us the strength and direction of the correlation between two 
 
 ## Model 4: Decision tree with hyperparameter tuning
 
-![alt text](Images\Dt_Tuned.png)
+![Images/Dt_Tuned.png](Images/Dt_Tuned.png)
+
+### Model Evaluation
 
 ![alt text](Images/cm_Dt_tuned.png)
 
