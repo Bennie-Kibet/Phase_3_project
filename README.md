@@ -216,7 +216,7 @@ A heatmap can show us the strength and direction of the correlation between two 
 
 * The decision tree tuned model was preferable as it outperformed all the other models in terms of precision, recall, and F1 score.
 
-![alt text](Images\ROC_curve.png)
+![!\[alt text\](Images\ROC_curve.png)](Images/ROC_curve.png)
 
 ### Discussion
 * The ROC curves show that Decision tree clearly outperforms the other models with an AUC of 0.57, indicating strong discrimination between classes.
