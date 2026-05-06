@@ -216,12 +216,15 @@ A heatmap can show us the strength and direction of the correlation between two 
 
 * The decision tree tuned model was preferable as it outperformed all the other models in terms of precision, recall, and F1 score.
 
-![!\[alt text\](Images\ROC_curve.png)](Images/ROC_curve.png)
+![!\[!\\[alt text\\](Images\ROC_curve.png)\](Images/ROC_curve.png)](Images/ROC_curve.png)
 
 ### Discussion
-* The ROC curves show that Decision tree clearly outperforms the other models with an AUC of 0.57, indicating strong discrimination between classes.
-* Both Decision Tree variants (AUC is 0.55–0.56) perform only slightly better than random guessing, suggesting weak predictive power.
-* Both the Logistic Regression variants have an AUC of 0.50, essentially equivalent to random performance, indicating it fails to capture useful patterns.
+
+* The baseline decision tree performs best (AUC = 0.88), indicating the strongest class separation.
+* The tuned decision tree is slightly worse (AUC = 0.86), suggesting tuning may have reduced overfitting at a small cost to accuracy.
+* Both logistic regression models perform similarly (AUC = 0.83) and trail the trees.
+* This implies nonlinear relationships in the data favor tree-based models.
+* All models outperform random guessing, showing meaningful predictive power.
 * Overall, Decision tree model is the most reliable model here, while the others may need better tuning, features, or different modeling approaches.
 
 # Conclusion
